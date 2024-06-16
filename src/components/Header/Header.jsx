@@ -1,24 +1,60 @@
+import { useState } from "react";
 import Email from "../../assets/mail.svg";
-import "./Header.scss";
+import styles from "./Header.module.scss";
 
 function Header() {
+  const [selectedItem, setSelectedItem] = useState("");
+
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+    setSelectedItem(sectionId);
+  };
+
   return (
-    <section className="header">
-      <p className="title">Davi Pereira</p>
-      <nav className="navbar">
-        <ul className="navbar_ul">
-          <li className="navbar_ul_li">
-            <a>Home</a>
+    <section className={styles.header}>
+      <p className={styles.title} onClick={() => scrollToSection("home")}>
+        Davi Pereira
+      </p>
+      <nav className={styles.navbar}>
+        <ul className={styles.navbar_ul}>
+          <li
+            onClick={() => scrollToSection("home")}
+            className={`${styles.navbar_ul_li} ${
+              selectedItem === "home" ? styles.selected : ""
+            }`}
+          >
+            Home
           </li>
-          <li className="navbar_ul_li">
-            <a>Projects</a>
+          <li
+            onClick={() => scrollToSection("skills")}
+            className={`${styles.navbar_ul_li} ${
+              selectedItem === "skills" ? styles.selected : ""
+            }`}
+          >
+            Skills
           </li>
-          <li className="navbar_ul_li">
-            <a>Skills</a>
+          <li
+            onClick={() => scrollToSection("work_experience")}
+            className={`${styles.navbar_ul_li} ${
+              selectedItem === "work_experience" ? styles.selected : ""
+            }`}
+          >
+            Work Experience
+          </li>
+          <li
+            onClick={() => scrollToSection("projects")}
+            className={`${styles.navbar_ul_li} ${
+              selectedItem === "projects" ? styles.selected : ""
+            }`}
+          >
+            Projects
           </li>
         </ul>
       </nav>
-      <img src={Email} alt="Ícone de Email" className="email_svg"></img>
+      <img src={Email} alt="Ícone de Email" className={styles.email_svg}></img>
     </section>
   );
 }

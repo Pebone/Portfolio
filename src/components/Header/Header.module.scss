@@ -4,6 +4,13 @@
   align-items: center;
   height: fit-content;
   font-family: "Poppins";
+  padding: 1rem 14rem;
+
+  // @media (max-width: 768px) {
+  //   display: flex; /* Alinha o texto centralmente */
+  //   justify-content: center;
+  //   align-items: center;
+  // }
 }
 
 .title {

@@ -1,11 +1,12 @@
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import Skills from "./components/Skills/Skills";
+import styles from "./App.module.scss"
 
 function App() {
   return (
     <>
-      <div style={{ padding: "1rem 14rem" }}>
+      <div className={styles.app}>
         <Header></Header>
         <Home></Home>
         <Skills></Skills>

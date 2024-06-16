@@ -3,8 +3,92 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 5rem 14rem;
+  gap: 4rem;
+  background-image: url(../../assets/background_skills.png);
+  background-position: center;
+  background-repeat: repeat;
 }
 
 .title {
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.title_name {
+  font-size: 48px;
+  font-family: "Poppins";
+  font-weight: bold;
+}
+
+.title_subtitle_div {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.title_subtitle {
+  color: #2755ff;
+  font-size: 16px;
+  font-family: "Poppins";
+}
+
+.title_subtitle_highlight {
+  font-family: "Caveat";
+  font-size: 32px;
+}
+
+.title_levels {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins";
+
+  &::before {
+    content: "-";
+    margin-right: 0.2rem;
+  }
+
+  &::after {
+    content: "+";
+    margin-left: 0.2rem;
+  }
+}
+
+.title_levels_1 {
+  width: 10px;
+  height: 10px;
+  background-color: #82ff87;
+  border-radius: 100%;
+  border: 1px solid black;
+}
+
+.title_levels_2 {
+  width: 10px;
+  height: 10px;
+  background-color: #a4b8ff;
+  border-radius: 100%;
+  border: 1px solid black;
+}
+
+.title_levels_3 {
+  width: 10px;
+  height: 10px;
+  background-color: #ffa4a4;
+  border-radius: 100%;
+  border: 1px solid black;
+}
+
+hr {
+  width: 15px;
+  border: 1px solid #a7a7a7;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 2fr));
+  gap: 2rem;
+  width: 100%;
 }

@@ -35,7 +35,11 @@ function Home() {
         </div>
       </div>
       <div className={styles.profile_picture}>
-        <img className={styles.picture} src={Foto} alt="Foto de Davi Pereira"></img>
+        <img
+          className={styles.picture}
+          src={Foto}
+          alt="Foto de Davi Pereira"
+        ></img>
       </div>
     </section>
   );

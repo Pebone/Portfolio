@@ -1,13 +1,22 @@
 .home {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  // display: flex;
+  // justify-content: space-between;
+  // align-items: center;
+  // font-family: "Poppins";
+  // height: fit-content;
+  // padding: 5rem 14rem;
+  // width: 100%;
+  // margin: 0 auto;
+  // gap: 20rem;
   font-family: "Poppins";
-  width: 100%;
-  height: fit-content;
-  padding: 5rem 0;
-  //   margin: 0 auto;
-  //   gap: 20rem;
+  padding: 5rem 14rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+
+  @media (max-width: 1360px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .introduction {
@@ -16,6 +25,12 @@
   align-items: flex-start;
   justify-content: center;
   gap: 1.2rem;
+
+  // @media (max-width: 1024px) {
+  //   display: flex; /* Alinha o texto centralmente */
+  //   justify-content: center;
+  //   align-items: center;
+  // }
 }
 
 .intro_welcome {
@@ -75,6 +90,10 @@
 }
 
 .profile_picture {
+  text-align: end;
+  // @media (max-width: 1024px) {
+  //   text-align: center; /* Uma coluna quando a tela for menor */
+  // }
 }
 
 .picture {

@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: fit-content;
+  font-family: "Poppins";
+}
+
+.title {
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.navbar {
+}
+
+.navbar_ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.navbar_ul_li {
+  cursor: pointer;
+}
+
+.email_svg {
+  cursor: pointer;
+}

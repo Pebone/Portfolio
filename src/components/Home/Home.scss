@@ -1,0 +1,84 @@
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Poppins";
+  width: 100%;
+  height: fit-content;
+  padding: 5rem 0;
+  //   margin: 0 auto;
+  //   gap: 20rem;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.intro_welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+
+  span {
+    color: #2757ff;
+  }
+}
+
+.intro_name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 96px;
+
+  span {
+    color: #2757ff;
+  }
+}
+
+.intro_vocation {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  font-size: 24px;
+
+  span {
+    color: black;
+    font-family: "Caveat";
+    border-bottom: 1px solid black;
+    font-size: 48px;
+  }
+}
+
+.intro_location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #a7a7a7;
+}
+
+.intro_socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+}
+
+.profile_picture {
+}
+
+.picture {
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+}

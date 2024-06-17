@@ -1,0 +1,109 @@
+.work_experience {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem 14rem;
+  font-family: "Poppins";
+  gap: 8rem;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.title_name {
+  font-size: 48px;
+  font-family: "Poppins";
+  font-weight: bold;
+}
+
+.title_subtitle_div {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.title_subtitle {
+  color: #2755ff;
+  font-size: 16px;
+  font-family: "Poppins";
+}
+
+.title_subtitle_highlight {
+  font-family: "Caveat";
+  font-size: 32px;
+}
+
+.works {
+  display: flex;
+  justify-content: center;
+}
+
+.work_location {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  border: 3px solid transparent;
+  height: fit-content;
+  width: fit-content;
+  transition: all 0.5s ease;
+  padding: 0.5rem;
+
+  p {
+    width: max-content;
+  }
+}
+
+.work_location:hover {
+  background-color: #ececec;
+}
+
+.selected {
+  box-shadow: -4px 0 #2755ff;
+}
+
+.work_card {
+  padding: 0.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px 0px 10px #00000025;
+  gap: 1.5rem;
+}
+
+.work_title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.work_role {
+  font-weight: bold;
+  font-size: 20px;
+
+  span {
+    color: #2755ff;
+  }
+}
+
+.work_date {
+  color: #a7a7a7;
+  font-size: 12px;
+}
+
+.work_responsabilities {
+}
+
+.work_list {
+
+  text-align: justify;
+
+  li:not(:last-child) {
+    margin: 0 0 1.2rem 0;
+  }
+}

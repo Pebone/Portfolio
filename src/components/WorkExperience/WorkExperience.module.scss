@@ -5,14 +5,18 @@
   align-items: center;
   padding: 5rem 14rem;
   font-family: "Poppins";
-  gap: 8rem;
+  gap: 6rem;
+  background-image: url(../../assets/background_work.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .title {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.4rem;
+  gap: 0.8rem;
 }
 
 .title_name {
@@ -51,7 +55,8 @@
   height: fit-content;
   width: fit-content;
   transition: all 0.5s ease;
-  padding: 0.5rem;
+  padding: 1rem 2rem 1rem 0.5rem;
+  box-shadow: -4px 0 #a7a7a7;
 
   p {
     width: max-content;
@@ -67,12 +72,13 @@
 }
 
 .work_card {
-  padding: 0.5rem 1rem;
+  padding: 1rem 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   box-shadow: 0px 0px 10px #00000025;
   gap: 1.5rem;
+  background-color: #ffffff;
 }
 
 .work_title {
@@ -100,8 +106,11 @@
 }
 
 .work_list {
-
   text-align: justify;
+
+  li {
+    // font-weight: 500;
+  }
 
   li:not(:last-child) {
     margin: 0 0 1.2rem 0;

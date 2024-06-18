@@ -1,0 +1,51 @@
+.card_projects {
+  font-family: "Poppins";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  box-shadow: 2px 2px 10px #a7a7a7;
+  //   padding: 0 1rem;
+  border-radius: 10px;
+  width: 300px;
+  background-color: white;
+}
+
+.img {
+  img {
+    width: 300px;
+    height: fit-content;
+    border-radius: 10px;
+  }
+}
+
+.attributes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.type {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  color: #2757ff;
+}
+
+.name {
+  font-size: 24px;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.description {
+  color: #a7a7a7;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}

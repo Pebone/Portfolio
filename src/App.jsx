@@ -3,6 +3,7 @@ import Home from "./components/Home/Home";
 import Skills from "./components/Skills/Skills";
 import WorkExperience from "./components/WorkExperience/WorkExperience";
 import styles from "./App.module.scss";
+import Projects from "./components/Projects/Projects";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Home></Home>
         <Skills></Skills>
         <WorkExperience></WorkExperience>
+        <Projects></Projects>
       </div>
     </>
   );

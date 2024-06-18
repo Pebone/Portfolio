@@ -13,10 +13,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
-
-  @media (max-width: 1360px) {
-    grid-template-columns: 1fr;
-  }
 }
 
 .introduction {
@@ -100,4 +96,63 @@
   width: 500px;
   height: 500px;
   border-radius: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    // width: 100%;
+  }
+
+  .intro_welcome {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .intro_name {
+    font-size: 64px;
+  }
+
+  .intro_vocation {
+    width: 100%;
+    font-size: 16px;
+
+    span {
+      font-size: 32px;
+    }
+  }
+
+  .intro_location{
+    font-size: 12px;
+  }
+
+  .introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .picture {
+    width: 200px;
+    height: fit-content;
+  }
+
+  .intro_socials{
+    width: 100%;
+    img{
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 1024px) {
+}
+@media only screen and (max-width: 1200px) {
 }

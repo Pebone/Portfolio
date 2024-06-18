@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Email from "../../assets/mail.svg";
 import styles from "./Header.module.scss";
+import Menu from "../../assets/menu.svg"
 
 function Header() {
   const [selectedItem, setSelectedItem] = useState("");
@@ -55,6 +56,7 @@ function Header() {
         </ul>
       </nav>
       <img src={Email} alt="Ícone de Email" className={styles.email_svg}></img>
+      <img src={Menu} alt="Ícone de Menu" className={styles.menu_svg}></img>
     </section>
   );
 }

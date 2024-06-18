@@ -90,7 +90,7 @@
 
 .work_role {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 24px;
 
   span {
     color: #2755ff;
@@ -115,4 +115,91 @@
   li:not(:last-child) {
     margin: 0 0 1.2rem 0;
   }
+}
+
+.collapsed_first {
+  display: none;
+}
+
+.collapsed_second {
+  display: none;
+}
+
+.collapsed_third {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .work_experience {
+    padding: 1rem;
+    background-image: none;
+    gap: 4rem;
+  }
+
+  .title_name {
+    font-size: 32px;
+  }
+
+  .title_subtitle {
+    font-size: 12px;
+  }
+
+  .title_subtitle_highlight {
+    font-size: 24px;
+  }
+
+  .works {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .work_location {
+    width: auto;
+    box-shadow: 0 4px #a7a7a7;
+    margin-bottom: 1rem;
+    font-size: 14px;
+  }
+
+  .selected {
+    box-shadow: 0 4px #2755ff;
+  }
+
+  .work_card_first {
+    display: none;
+  }
+
+  .work_card_second {
+    display: none;
+  }
+
+  .work_card_third {
+    display: none;
+  }
+
+  .collapsed_first {
+    display: block;
+  }
+
+  .collapsed_second {
+    display: block;
+  }
+
+  .collapsed_third {
+    display: block;
+  }
+
+  .work_role{
+    font-size: 16px;
+  }
+
+  .work_list{
+    font-size: 14px;
+    word-break: break-all;
+  }
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 992px) {
+}
+@media only screen and (max-width: 1200px) {
 }

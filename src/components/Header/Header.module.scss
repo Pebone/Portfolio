@@ -5,12 +5,6 @@
   height: fit-content;
   font-family: "Poppins";
   padding: 1rem 14rem;
-
-  // @media (max-width: 768px) {
-  //   display: flex; /* Alinha o texto centralmente */
-  //   justify-content: center;
-  //   align-items: center;
-  // }
 }
 
 .title {
@@ -33,9 +27,46 @@
 }
 
 .selected {
-    color: #2757FF;
-  }
+  color: #2757ff;
+}
 
 .email_svg {
   cursor: pointer;
+}
+
+.menu_svg {
+  cursor: pointer;
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    
+    p{
+      font-size: 16px;
+    }
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .email_svg {
+    display: none;
+  }
+
+  .menu_svg {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 1024px) {
+}
+@media only screen and (max-width: 1200px) {
 }

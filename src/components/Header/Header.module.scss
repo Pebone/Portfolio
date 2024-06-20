@@ -34,8 +34,7 @@
   cursor: pointer;
 }
 
-.menu_svg {
-  cursor: pointer;
+.nav_burguer {
   display: none;
 }
 
@@ -45,8 +44,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    
-    p{
+
+    p {
       font-size: 16px;
     }
   }
@@ -59,8 +58,27 @@
     display: none;
   }
 
-  .menu_svg {
+  .nav_burguer {
     display: block;
+    flex-direction: column;
+    transition: all 1s ease;
+  }
+
+  .navbar_burguer {
+    position: absolute;
+    right: 0;
+    box-shadow: 0 0 10px #00000025;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0.5rem 1.2rem 0 0;
+  }
+
+  .navbar_ul_burguer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.8rem;
   }
 }
 

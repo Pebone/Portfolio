@@ -138,4 +138,27 @@
   }
 }
 @media only screen and (max-width: 1200px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+
+    p {
+      font-size: 16px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 10rem;
+
+    p {
+      font-size: 16px;
+    }
+  }
 }

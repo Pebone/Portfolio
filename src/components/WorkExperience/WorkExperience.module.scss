@@ -334,4 +334,139 @@
   }
 }
 @media only screen and (max-width: 1200px) {
+  .work_experience {
+    padding: 5rem 1rem;
+    background-image: none;
+    gap: 4rem;
+  }
+
+  .title_name {
+    font-size: 32px;
+  }
+
+  .title_subtitle {
+    font-size: 12px;
+  }
+
+  .title_subtitle_highlight {
+    font-size: 24px;
+  }
+
+  .works {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .work_location {
+    width: auto;
+    box-shadow: 0 4px #a7a7a7;
+    margin-bottom: 1rem;
+    font-size: 14px;
+  }
+
+  .selected {
+    box-shadow: 0 4px #2755ff;
+  }
+
+  .work_card_first {
+    display: none;
+  }
+
+  .work_card_second {
+    display: none;
+  }
+
+  .work_card_third {
+    display: none;
+  }
+
+  .collapsed_first {
+    display: block;
+  }
+
+  .collapsed_second {
+    display: block;
+  }
+
+  .collapsed_third {
+    display: block;
+  }
+
+  .work_role {
+    font-size: 16px;
+  }
+
+  .work_list {
+    font-size: 14px;
+    word-break: break-all;
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  .work_experience {
+    padding: 5rem 10rem;
+    background-image: none;
+    gap: 4rem;
+  }
+
+  .title_name {
+    font-size: 32px;
+  }
+
+  .title_subtitle {
+    font-size: 12px;
+  }
+
+  .title_subtitle_highlight {
+    font-size: 24px;
+  }
+
+  .works {
+    display: flex;
+    // flex-direction: column;
+  }
+
+  // .work_location {
+  //   width: auto;
+  //   box-shadow: 0 4px #a7a7a7;
+  //   margin-bottom: 1rem;
+  //   font-size: 14px;
+  // }
+
+  // .selected {
+  //   box-shadow: 0 4px #2755ff;
+  // }
+
+  // .work_card_first {
+  //   display: none;
+  // }
+
+  // .work_card_second {
+  //   display: none;
+  // }
+
+  // .work_card_third {
+  //   display: none;
+  // }
+
+  // .collapsed_first {
+  //   display: block;
+  // }
+
+  // .collapsed_second {
+  //   display: block;
+  // }
+
+  // .collapsed_third {
+  //   display: block;
+  // }
+
+  // .work_role {
+  //   font-size: 16px;
+  // }
+
+  // .work_list {
+  //   font-size: 14px;
+  //   word-break: break-all;
+  // }
 }

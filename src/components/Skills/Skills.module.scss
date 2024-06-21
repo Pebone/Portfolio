@@ -131,8 +131,72 @@ hr {
 }
 @media only screen and (max-width: 768px) {
 
+  .skills{
+    padding: 5rem 1rem;
+    gap: 4rem;
+  }
+
+  .title_name{
+    font-size: 32px;
+  }
+
+  .title_subtitle{
+    font-size: 12px;
+  }
+
+  .title_subtitle_highlight{
+    font-size: 24px;
+  }
+
+  .title_levels_1{
+    width: 8px;
+    height: 8px;
+  }
+
+  .title_levels_2{
+    width: 8px;
+    height: 8px;
+  }
+
+  .title_levels_3{
+    width: 8px;
+    height: 8px;
+  }
+
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1024px) {
+
+  .skills{
+    padding: 5rem 1rem;
+    gap: 4rem;
+  }
+
+  .title_name{
+    font-size: 32px;
+  }
+
+  .title_subtitle{
+    font-size: 12px;
+  }
+
+  .title_subtitle_highlight{
+    font-size: 24px;
+  }
+
+  .title_levels_1{
+    width: 8px;
+    height: 8px;
+  }
+
+  .title_levels_2{
+    width: 8px;
+    height: 8px;
+  }
+
+  .title_levels_3{
+    width: 8px;
+    height: 8px;
+  }
 
 }
 @media only screen and (max-width: 1200px) {

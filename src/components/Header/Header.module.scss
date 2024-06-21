@@ -83,8 +83,59 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+
+    p {
+      font-size: 16px;
+    }
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .email_svg {
+    display: none;
+  }
+
+  .nav_burguer {
+    display: block;
+    flex-direction: column;
+    transition: all 1s ease;
+  }
+
+  .navbar_burguer {
+    position: absolute;
+    right: 0;
+    box-shadow: 0 0 10px #00000025;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0.5rem 1.2rem 0 0;
+  }
+
+  .navbar_ul_burguer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.8rem;
+  }
 }
 @media only screen and (max-width: 1024px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+
+    p {
+      font-size: 16px;
+    }
+  }
 }
 @media only screen and (max-width: 1200px) {
 }

@@ -17,9 +17,11 @@ function Card(props) {
       </div>
       <div className={styles.skills}>
         {skillList.map((skill, i) => (
-          <div className={styles.skill}>
-            <p key={i}>{skill}</p>
-            <div className={styles.level}></div>
+          <div className={styles.skill} key={i}>
+            <p>{skill.name}</p>
+            {skill.level === 1 && <div className={styles.level1}></div>}
+            {skill.level === 2 && <div className={styles.level2}></div>}
+            {skill.level === 3 && <div className={styles.level3}></div>}
           </div>
         ))}
       </div>

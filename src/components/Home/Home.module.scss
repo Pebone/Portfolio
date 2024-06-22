@@ -309,11 +309,12 @@
 
 @media only screen and (min-width: 1201px) {
   .home {
-    // display: flex;
+    display: flex;
     // flex-direction: column;
-    // justify-content: center;
-    // align-items: center;
+    justify-content: center;
+    align-items: center;
     padding: 5rem 10rem;
+    gap: 12rem;
     // width: 100%;
   }
 
